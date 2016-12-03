@@ -3,3 +3,33 @@
 @-o-viewport { width: devic- width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+header {
+  color: #fff;
+  background-color: #18294f;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Ubuntu;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding: .5em .75em;
+}
+
+nav {
+  background-color: #18294f;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  padding: 0;
+  font-family: Ubuntu;
+  font-size: 1.125rem;
+  text-decoration: none;
+  margin: 0;
+nav a {
+  float: left;
+  width: 100%;
+  padding: .3em 0 .5em;
+  color: #6c8fe0;
